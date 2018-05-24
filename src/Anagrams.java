@@ -19,6 +19,9 @@ public class Anagrams {
 			for(int i=1;i<=word.length();i++) {
 				amt*=i;
 			}
+			for(int i=0;i<chars.size();i++) {
+				
+			}
 			ArrayList<String> anagrams = new ArrayList<String>();
 			ArrayList<String> posAna = new ArrayList<String>();
 			while(posAna.size()<amt) {
